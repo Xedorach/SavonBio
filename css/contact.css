@@ -1,0 +1,78 @@
+/* Contact Us */
+
+.contact {
+    height: auto;
+    background-color: var(--primary-color);
+    color: #000;
+    position: relative;
+}
+.contact h1{
+
+font-size: 40px;
+}
+
+.contact-text p{
+    font-family: Kalam;
+    margin: 20px 0;
+
+}
+
+.contact .grid {
+    overflow: visible ;
+    grid-template-columns: 55% 45%;
+    gap: 10px;
+}
+
+.contact-form {
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 450px;
+    padding: 20px 10px;
+    z-index: 100;
+    justify-self: flex-end;
+
+}
+
+.contact-form .form-control{
+    margin: 20px 0;
+    
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form input[type='number']{
+    border: 0;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 3px 0px;
+    font-size: 15px;
+}
+
+.contact-form input:focus{
+    outline: none;
+}
+
+.grid-contact {
+    display: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact::before,
+.contact::after{
+    content:'';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transform: skewY(+3deg);
+    -webkit-transform: skewY(+3deg);
+    -moz-transform: skewY(+3deg);
+    -ms-transform: skewY(+3deg);
+}

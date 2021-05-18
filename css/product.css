@@ -1,0 +1,37 @@
+/* Product page css */
+
+.showcase-product {
+    color: #000;
+    height: auto;
+    background-color: var(--primary-color);
+    position: relative;
+  }
+  
+  .showcase-product h1 {
+    font-size: 40px;
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .showcase-product-text p {
+    font-family: Kalam;
+    margin: 20px 0;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+  
+  .showcase-product .product-image {
+    padding: 0px;
+    object-fit: none;
+  }
+  
+  .showcase-product-price {
+       font-size: 20px; 
+       text-align: center;
+       border-bottom: 1px solid black;
+       border-collapse: collapse;
+
+
+
+  }
+
+  
