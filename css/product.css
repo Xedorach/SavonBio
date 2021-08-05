@@ -80,18 +80,18 @@
 .product-grid .product-item{
     
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 15px;
-    font-size: 1.5vw;
+    padding: 10px;
+    font-size: 10px;
+    font-size: 1.4vw;
     text-align: center;
 
   }
-  .product-image-catalog:hover {
 
-  transform: scale(0.995);
-
+.product-grid .product-item:hover{
+  
+  transform: scale(0.98)
 }
+
 
 
   

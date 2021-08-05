@@ -76,3 +76,11 @@ font-size: 40px;
     -moz-transform: skewY(+3deg);
     -ms-transform: skewY(+3deg);
 }
+
+.contact_icon{
+
+    display: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;}
